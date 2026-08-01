@@ -1,0 +1,31 @@
+# Окружение
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Логи
+logs/*.log
+logs/*.zip
+
+# IDE
+.idea/
+.vscode/
+
+# Docker
+*.pid
+
+# ОС
+.DS_Store
+Thumbs.db
